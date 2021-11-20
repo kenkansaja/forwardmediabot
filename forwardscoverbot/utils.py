@@ -16,7 +16,7 @@
 
 
 from functools import wraps
-from forwardscoverbot import config
+from forwardscoverbot.config import config
 
 from telegram.ext.dispatcher import run_async
 
