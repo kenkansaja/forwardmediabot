@@ -24,8 +24,7 @@
 bot_token: "1782413801:AAFzU9UlkWiV5SF-1-OagPhfwYVO5CXnj9w"
 
 # the name of the database (type: str)
-db_path: "postgresql://postgres:siavrHDLQCzYp2MMTsLi@containers-us-west-9.railway.app:7064/railway"
-
+db_path: "database/database.db"
 # a list containing the telegram ids of the admins of the bot (type: ids are int)
 admins: 
 - 1607338903
