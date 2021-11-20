@@ -1,24 +1,23 @@
 {
-  "name": "Man-Userbot",
-  "description": "[Man-Userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
-  "logo": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
-  "keywords": ["telegram", "userbot", "man-userbot", "modular", "python"],
-  "repository": "https://github.com/kenkansaja/forwardscoverbot",
+  "name": "ForwardMediaBot",
+  "description": "[ForwardMediaBot] Bot Telegram yang berjalan pada Python 3.9+",
+  "repository": "https://github.com/kenkansaja/forwardmediabot",
   "env": {
     "ADMINS": {
-      "description": "Dapatkan API KEY di web my.telegram.org. Masukan yg APP ID Telegram",
-      "required": true
+      "description": "Isi id telegram kalian sesuai contoh.",
+      "required": true,
+      "value": ""
     },
     "BOT_TOKEN": {
-      "description": "Dapatkan Api hash di web my.telegram.org.",
+      "description": "Dapatkan di @Botfather.",
       "required": true
     },
      "GROUP": {
-     "description": "isi aja",
+     "description": "isi aja sesuai contoh.",
      "value": "http://t.me/musikkugroup"
     },
      "CHANNEL": {
-     "description": "isi aja",
+     "description": "isi aja sesuai contoh.",
      "value": "http://t.me/musikkuchannel"
     },
      "DB_PATH": {
