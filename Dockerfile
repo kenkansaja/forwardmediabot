@@ -19,4 +19,4 @@ RUN echo "**** install Python ****" && \
     echo "**** install bot ****" && \
     pip3 install ./ 
 
-CMD forwardscoverbot
+CMD pyton3 -m forwardscoverbot
