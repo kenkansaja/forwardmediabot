@@ -15,6 +15,7 @@
 # along with ForwardsCoverBot.  If not, see <http://www.gnu.org/licenses/>
 
 
+from forwardscoverbot.config import config
 from forwardscoverbot import constants
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
@@ -22,8 +23,8 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 def github_link_kb():
     button0 = InlineKeyboardButton(
-            text="Source code", 
-            url="https://github.com/91DarioDev/ForwardsCoverBot")
+            text="GROUP SUPPORT", 
+            url=config.GROUP), InlineKeyboardButton(text="CHANNEL", url=config.CHANNEL)
     buttons_list = [[button0]]
     keyboard = InlineKeyboardMarkup(buttons_list)
     return keyboard
