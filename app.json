@@ -1,0 +1,46 @@
+{
+  "name": "Man-Userbot",
+  "description": "[Man-Userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
+  "logo": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
+  "keywords": ["telegram", "userbot", "man-userbot", "modular", "python"],
+  "repository": "https://github.com/kenkansaja/forwardscoverbot",
+  "telegram": ["https://t.me/mrismanaziz", "https://t.me/tofik_dn"],
+  "success_url": "https://t.me/Lunatic0de",
+  "stack": "container",
+  "env": {
+    "ADMINS": {
+      "description": "Dapatkan API KEY di web my.telegram.org. Masukan yg APP ID Telegram",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Dapatkan Api hash di web my.telegram.org.",
+      "required": true
+    },
+     "DB_PATH": {
+      "description": "Dapatkan String Session di Grup » https://t.me/sharinguserbot » Lalu ketik #string",
+      "required": false
+    }
+  },
+  "addons": [
+    {
+    "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
