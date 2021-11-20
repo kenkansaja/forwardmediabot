@@ -19,7 +19,7 @@ import time
 import threading
 
 from forwardscoverbot import utils
-from forwardscoverbot import config
+from forwardscoverbot.config import config
 
 from telegram.ext.dispatcher import run_async
 
