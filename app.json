@@ -6,7 +6,7 @@
     "ADMINS": {
       "description": "Isi id telegram kalian sesuai contoh.",
       "required": true,
-      "value": ""
+      "value": "122334465"
     },
     "BOT_TOKEN": {
       "description": "Dapatkan di @Botfather.",
@@ -22,7 +22,7 @@
     },
      "DB_PATH": {
       "description": "jangan di ganti",
-      "required": false,
+      "required": true,
       "value": "database/database.db"
     }
   },
