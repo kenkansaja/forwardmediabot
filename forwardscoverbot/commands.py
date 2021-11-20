@@ -34,13 +34,13 @@ import html
 def help_command(update, context):
     keyboard = keyboards.github_link_kb()
     text = (
-        "<b>Do you want to send a message to someone or in a group, but you want to avoid "
-        "that someone could spread it on telegram with your name? This bot just echos "
-        "your messages</b>.\n\nSend here what you want and you will get the same message "
-        "back, then forward the message where you want and the forward label will have "
-        "the name of this bot.\n<i>It works also if you edit messages or forward messages. "
-        "It also keeps the same text formatting style.</i>\n\n"
-        "<b>Supported commands:</b>\n"
+        "<b>Apakah Anda ingin mengirim pesan kepada seseorang atau di grup, tetapi Anda ingin menghindari"
+        "bahwa seseorang bisa menyebarkan namamu? Gunakan Bot ini untuk meneruskan"
+        "pesan kamu</b>.\n\nKirimkan di sini apa yang Anda inginkan dan Anda akan mendapatkan pesan yang sama"
+        "kembali, untuk meneruskan pesan ke tempat yang Anda inginkan dan label penerusan akan digantikan"
+        "Nama dari bot.\n<i>Ini juga berfungsi jika Anda mengirim pesan atau meneruskan pesan."
+        "Itu juga mempertahankan gaya pemformatan teks yang sama.</i>\n\n"
+        "<b>Perintah yang didukung:</b>\n"
         "/disablewebpagepreview\n"
         "/removecaption\n"
         "/addcaption\n"
