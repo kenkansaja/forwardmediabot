@@ -1,58 +1,33 @@
-# ForwardsCoverBot
+# Forward Media Bot
 
+Bot telegram ini hanya menggemakan pesan apa pun yang Anda kirim atau ubah untuknya. Jika Anda tidak suka meneruskan telegram, sebelum mengirim pesan, kirim pesan ke bot, lalu teruskan pesan bahwa bot kembali ke pengguna yang Anda ajak mengobrol. Jika dia akan meneruskan pesan, itu akan memiliki nama bot di label penerusan. Ini mendukung apa pun dan menghormati gaya pemformatan teks.
+
+## Cara menjalankan bot ini oleh Anda:
+Untuk memastikan bahwa ketika Anda mengirim pesan ke bot ini untuk menganonimkannya, bot ini tidak meneruskan pesan Anda di obrolan lain (tidak), Anda mungkin ingin menjalankan instance Anda sendiri.
+
+
+## DEPLOY DI HEROKU
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkansaja/forwardscoverbot"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
 
-This telegram bot just echoes any message you send it or modify for him. If you don't like telegram forwards, before sending a message, send the message to the bot, then forward the message that the bot returns to the user you were chatting with. In case he will forward the message, it will have the name of the bot in the forward label. It supports anything and respect the formatting style of the text.
-
-## How to run this bot by you:
-To be sure that when you send messages to this bot to anonymize them it doesn't forward your message in other chats (it doesn't), you may want to run a your own instance.
-
-**If you want to run this bot by you:**
 
 
-**Clone and install:**
-```
-cd path
-git clone https://github.com/91DarioDev/forwardscoverbot
-cd forwardscoverbot
-pip install .
-```
+## Bagaimana cara menggunakannya:
 
-**Config the bot:**
-- open `forwardscoverbot/config/config.example.yaml`
-- select all and copy
-- create a file `forwardscoverbot/config/config.yaml`
-- paste and replace the values with real values
-- save and close
+- kirim pesan ke bot untuk mendapatkan pesan yang digaungkan
 
-**Run the bot:**
-```
-forwardscoverbot
-```
-Note: _In case you want to call forwardscoverbot from another path, you can, but you have to specify the path of the config.yaml file as first argument in the cli.
-Example:_
+**Perintah:**
 
-```
-fowardscoverbot path/forwardscoverbot/config/config.yaml
-```
+- `/start`, `/help` - membalas dengan pesan selamat datang
+- `/disablewebpagepreview`- hapus pratinjau tautan dari pesan yang digaungkan
+- `/stats` - dapatkan statistik tentang penggunaan bot (khusus admin)
+- `/removecaption` - menghapus teks dari pesan
+- `/addcaption` - menambah atau menimpa keterangan pada pesan
+- `/removebuttons` - hapus tombol dari pesan
+- `/addbuttons` - tambahkan tombol ke pesan
 
-**Upgrade the bot:**
-```
-cd path/forwardscoverbot
-git pull https://github.com/91DarioDev/forwardscoverbot
-pip install --upgrade .
-```
 
-## How to use it:
 
-- send messages to the bot to get echoed messages
+## THANKS TO
 
-**Commands:**
-
-- `/start`, `/help` - replies with a welcome message
-- `/disablewebpagepreview`- remove the link preview from an echoed message
-- `/stats` - get statistics about the use of the bot (admins only)
-- `/removecaption` - remove caption from a message
-- `/addcaption` - add or overwrite a caption to a message
-- `/removebuttons` - remove buttons from a message
-- `/addbuttons` - addbuttons to the message
+- [91DarioDev](https://github.com/91DarioDev/forwardscoverbot) - Original repo
+- [KENKAN](https://github.com/kenkansaja/forwardmediabot) - Indonesia repo
