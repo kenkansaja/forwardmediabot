@@ -2,6 +2,7 @@
   "name": "ForwardMediaBot",
   "description": "[ForwardMediaBot] Bot Telegram yang berjalan pada Python 3.9+",
   "repository": "https://github.com/kenkansaja/forwardmediabot",
+  "logo": "https://telegra.ph/file/3c3804005539328418e22.jpg",
   "env": {
     "ADMINS": {
       "description": "Isi id telegram kalian sesuai contoh.",
