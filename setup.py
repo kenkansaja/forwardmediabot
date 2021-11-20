@@ -12,8 +12,7 @@ setuptools.setup(
     author_email="kenkanwardana@gmail.com",
 
     install_requires=[
-        "python-telegram-bot",
-        "Pyyaml"
+        "python-telegram-bot"
     ],
 
     packages=[
