@@ -18,7 +18,7 @@
 import logging
 
 # files
-from forwardscoverbot import config
+from forwardscoverbot.config import config
 from forwardscoverbot import commands
 from forwardscoverbot import messages
 from forwardscoverbot import utils
