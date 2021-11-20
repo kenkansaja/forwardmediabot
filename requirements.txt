@@ -1,2 +1,2 @@
 python-dotenv==0.19.1
-python-telegram-bot --upgrade
+python-telegram-bot
