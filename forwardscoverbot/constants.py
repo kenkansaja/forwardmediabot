@@ -15,7 +15,7 @@
 # along with ForwardsCoverBot.  If not, see <http://www.gnu.org/licenses/>
 
 
-from forwardscoverbot import config
+from forwardscoverbot.config import config
 
 from telegram import Bot
 
