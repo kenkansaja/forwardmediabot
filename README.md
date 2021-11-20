@@ -5,7 +5,7 @@
 Bot telegram ini hanya menggemakan pesan apa pun yang Anda kirim atau ubah untuknya. Jika Anda tidak suka meneruskan telegram, sebelum mengirim pesan, kirim pesan ke bot, lalu teruskan pesan bahwa bot kembali ke pengguna yang Anda ajak mengobrol. Jika dia akan meneruskan pesan, itu akan memiliki nama bot di label penerusan. Ini mendukung apa pun dan menghormati gaya pemformatan teks.
 
 ## Cara menjalankan bot ini oleh Anda:
-Untuk memastikan bahwa ketika Anda mengirim pesan ke bot ini untuk menganonimkannya, bot ini tidak meneruskan pesan Anda di obrolan lain (tidak), Anda mungkin ingin menjalankan instance Anda sendiri.
+Untuk memastikan bahwa ketika Anda mengirim pesan ke bot ini untuk menganonimkannya, bot ini tidak meneruskan pesan Anda di obrolan lain.
 
 
 ## DEPLOY DI HEROKU
