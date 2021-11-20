@@ -14,6 +14,6 @@ class Config:
     DB_PATH = getenv("DB_PATH", None)
     GROUP = getenv("GROUP", None)
     CHANNEL = getenv("CHANNEL", None)
-
+    KODE = getenv("KODE", "https://github.com/kenkansaja/forwardmediabot")
 config = Config()
 
