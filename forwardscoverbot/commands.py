@@ -131,10 +131,10 @@ def add_caption(update, context):
 
 def add_buttons(update, context):
     usage = (
-        "<b>Using this command you can add buttons to messages.</b>\nReply with this command to the message where you want to add the buttons. Example:\n\n"
+        "<b>Dengan menggunakan perintah ini, Anda dapat menambahkan tombol ke pesan.</b>\nBalas dengan perintah ini ke pesan yang ingin Anda tambahkan tombolnya. Contoh:\n\n"
         "<code>/addbuttons first link=https://telegram.org && second link same row=https://google.it &&& third link new row=https://t.me</code>"
-        "\n\nSo the format for a button is [text]=[link]. Buttons on the same line are separated by && and on new lines are separeted by &&&."
-    )
+        "\n\nJadi format tombol adalah [teks]=[tautan]. Tombol pada baris yang sama dipisahkan oleh && dan pada baris baru dipisahkan oleh &&&."
+        )
     if not update.message.reply_to_message or len(context.args) < 1:
         update.message.reply_text(text=usage, parse_mode='HTML')
         return
@@ -155,7 +155,7 @@ def add_buttons(update, context):
                 row_lst.append(button)
             lst.append(row_lst)
         except Exception as e:
-            error = 'ERROR formatting the buttons'
+            error = 'KESALAHAN format tombol'
             update.message.reply_text(text=error, parse_mode='HTML')
     keyboard = InlineKeyboardMarkup(lst)
     messages.process_message(update=update, context=context, message=update.message.reply_to_message, custom_reply_markup=keyboard)
