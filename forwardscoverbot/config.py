@@ -12,7 +12,8 @@ class Config:
     BOT_TOKEN = getenv("BOT_TOKEN", "1234:abcd")
     ADMINS = int(getenv("ADMINS", "1952053555"))
     DB_PATH = getenv("DB_PATH", None)
-
+    GROUP = getenv("GROUP", None)
+    CHANNEL = getenv("CHANNEL", None)
 
 config = Config()
 
