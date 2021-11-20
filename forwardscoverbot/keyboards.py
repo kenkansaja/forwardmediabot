@@ -11,6 +11,9 @@ def github_link_kb():
     button1 = InlineKeyboardButton(
             text="CHANNEL SUPPORT", 
             url=config.CHANNEL)
+    button2 = InlineKeyboardButton(
+            text="SOURCE CODE", 
+            url=config.KODE)
     buttons_list = [[button0], [button1]]
     keyboard = InlineKeyboardMarkup(buttons_list)
     return keyboard
