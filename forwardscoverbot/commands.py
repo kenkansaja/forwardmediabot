@@ -21,7 +21,7 @@ def help_command(update, context):
         "bahwa seseorang bisa menyebarkan namamu? Gunakan Bot ini untuk meneruskan\n"
         "pesan kamu</b>.\n\nKirimkan di sini apa yang Anda inginkan dan Anda akan mendapatkan pesan yang sama\n"
         "kembali, untuk meneruskan pesan ke tempat yang Anda inginkan dan label penerusan akan digantikan\n"
-        "Nama dari bot.\n<i>Ini juga berfungsi jika Anda mengirim pesan atau meneruskan pesan.\n"
+        "Nama dari bot.\n\n<i>Ini juga berfungsi jika Anda mengirim pesan atau meneruskan pesan.\n"
         "Itu juga mempertahankan gaya pemformatan teks yang sama.</i>\n\n"
         "<b>Perintah yang didukung:</b>\n"
         "/disablewebpagepreview\n"
