@@ -7,7 +7,7 @@ Untuk memastikan bahwa ketika Anda mengirim pesan ke bot ini untuk menganonimkan
 
 
 ## DEPLOY DI HEROKU
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkansaja/forwardscoverbot"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkansaja/forwardmediabot"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
 
 
 
