@@ -17,11 +17,11 @@ import html
 def help_command(update, context):
     keyboard = keyboards.github_link_kb()
     text = (
-        "<b>Apakah Anda ingin mengirim pesan kepada seseorang atau di grup, tetapi Anda ingin menghindari"
-        "bahwa seseorang bisa menyebarkan namamu? Gunakan Bot ini untuk meneruskan"
-        "pesan kamu</b>.\n\nKirimkan di sini apa yang Anda inginkan dan Anda akan mendapatkan pesan yang sama"
-        "kembali, untuk meneruskan pesan ke tempat yang Anda inginkan dan label penerusan akan digantikan"
-        "Nama dari bot.\n<i>Ini juga berfungsi jika Anda mengirim pesan atau meneruskan pesan."
+        "<b>Apakah Anda ingin mengirim pesan kepada seseorang atau di grup, tetapi Anda ingin menghindari\n"
+        "bahwa seseorang bisa menyebarkan namamu? Gunakan Bot ini untuk meneruskan\n"
+        "pesan kamu</b>.\n\nKirimkan di sini apa yang Anda inginkan dan Anda akan mendapatkan pesan yang sama\n"
+        "kembali, untuk meneruskan pesan ke tempat yang Anda inginkan dan label penerusan akan digantikan\n"
+        "Nama dari bot.\n<i>Ini juga berfungsi jika Anda mengirim pesan atau meneruskan pesan.\n"
         "Itu juga mempertahankan gaya pemformatan teks yang sama.</i>\n\n"
         "<b>Perintah yang didukung:</b>\n"
         "/disablewebpagepreview\n"
