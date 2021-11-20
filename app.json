@@ -22,7 +22,7 @@
      "DB_PATH": {
       "description": "Dapatkan String Session di Grup » https://t.me/sharinguserbot » Lalu ketik #string",
       "required": false
-      'value": "database/database.db"
+      "value": "database/database.db"
     }
   },
   "addons": [
