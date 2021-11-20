@@ -1,5 +1,7 @@
 # ForwardsCoverBot
 
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkansaja/forwardscoverbot"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
+
 This telegram bot just echoes any message you send it or modify for him. If you don't like telegram forwards, before sending a message, send the message to the bot, then forward the message that the bot returns to the user you were chatting with. In case he will forward the message, it will have the name of the bot in the forward label. It supports anything and respect the formatting style of the text.
 
 ## How to run this bot by you:
