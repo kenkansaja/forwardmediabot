@@ -34,6 +34,6 @@ except FileNotFoundError:
             "\nExample: <forwardscoverbot /home/my_files/config.yaml>")
     sys.exit()
 
-BOT_TOKEN = conf['bot_token']
-DB_PATH = conf['db_path']
-ADMINS = conf['admins']
+BOT_TOKEN = conf['1782413801:AAFzU9UlkWiV5SF-1-OagPhfwYVO5CXnj9w']
+DB_PATH = conf['postgresql://postgres:siavrHDLQCzYp2MMTsLi@containers-us-west-9.railway.app:7064/railway']
+ADMINS = conf['1607338903']
