@@ -8,8 +8,7 @@ def github_link_kb():
     button0 = InlineKeyboardButton(
             text="GROUP SUPPORT", 
             url=config.GROUP)
-    button1 = InlineKeyboardButton(text="CHANNEL", url=config.CHANNEL)
-    buttons_list = [[button0], [button1]]
+    buttons_list = [[button0]]
     keyboard = InlineKeyboardMarkup(buttons_list)
     return keyboard
 
