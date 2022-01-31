@@ -12,6 +12,9 @@ Untuk memastikan bahwa ketika Anda mengirim pesan ke bot ini untuk menganonimkan
 
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/kenkansaja/forwardmediabot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300"heigh="100" /></a></p>
+## DEPLOY DI BOT
+
+<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=a2Vua2Fuc2FqYS9mb3J3YXJkbWVkaWFib3QgbWFpbg"><img src="https://img.shields.io/badge/BUAT DI-BOT HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300"heigh="100" /></a></p>
 
 ## Bagaimana cara menggunakannya:
 
